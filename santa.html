@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Izzy's Christmas Website</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Isabella Voelz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+    <div id="santaContainer">
+        <header>
+            <h1>Meet Santa</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hangman.html">Play Hangman</a></li>
+                <li><a href="countdown.html">Christmas Countdown</a></li>
+                <li><a href="santa.html">Meet Santa</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="jumbotron">
+                <h1 class="display-4">COVID-19 Alert</h1>
+                <p class="lead">Because of the Coronavirus outbreak, this year Santa will be meeting people over Zoom. Once your appointment is accepted we will call or E-Mail you for more information. Thank you.<br><br>
+                    For more information about COVID-19 please visit: </p>
+                <a class="btn btn-primary btn-lg" href="https://www.cdc.gov/coronavirus/2019-ncov/index.html" role="button">Learn More</a>
+            </div>
+            <div id="santa">
+                <img src="pexels-cottonbro-3150031.jpg" alt="Santa meeting a little girl" width="333" height="500" class="floatright">
+            </div>
+            <h2 id="santaHeader">Apply to Meet Santa Today!</h2>
+
+            <form id="santaForm">
+                <div>
+                <label for="fullName">Enter your full name: </label>
+                <input type="text" id="fullName" name="fullName">
+                </div>
+
+                <div>
+                <label for="email">Enter your E-Mail: </label>
+                <input type="text" id="email" name="email">
+                </div>
+
+                <div>
+                <label for="phone">Enter your phone number: </label>
+                <input type="text" id="phone" name="phone">
+                </div>
+
+                <div>
+                <label for="date">Enter the date you'd like to meet Santa: </label>
+                <input type="date" id="date" name="date">
+                </div>
+
+                <div>
+                <label for="time">Enter the time you'd like to meet Santa: </label>
+                <input type="time" id="time" name="time">
+                </div>
+
+                <br>
+                <button id="santaButton">Submit Appointment</button>
+
+                <p id="message"></p>
+                <p id="message2"></p>
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2020 Izzy's Christmas Website<br>
+            <a href="mailto:ivoelz@my.wctc.edu">ivoelz@my.wctc.edu</a><br>
+        </footer>
+    </div>
+</body>
+</html>

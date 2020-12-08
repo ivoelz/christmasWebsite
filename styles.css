@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article { display: block; }
+
+body {
+    background-color: #B00000;
+    color: white;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+header {
+    background-color: #003300;
+    color: white;
+    height: 130px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    font-size: 25px;
+    border: 2px solid white;
+}
+
+nav {
+    padding: 1em;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 2px solid white;
+    background-color: #003300;
+}
+
+li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 1em;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #B00000;
+}
+
+form {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+label {
+    float: none;
+    text-align: left;
+}
+
+#container {
+    text-align: center;
+}
+
+.letter {
+    background-color: #003300;
+    color: white;
+    border: 2px solid white;
+    height: 50px;
+    width: 50px;
+}
+
+.jumbotron {
+    padding: 2em;
+    margin: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.btn-primary {
+    background-color: #003300;
+    color: white;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 14px 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#fullName, #email, #phone, #date, #time, #userDate {
+    display: block;
+    margin: 8px 0;
+    border: 2px solid #003300;
+    border-radius: 3px;
+    width: 40%;
+    padding: 8px 12px;
+}
+
+#santaForm, #santaHeader {
+    margin: 12px;
+}
+
+#santaButton, #countdownButton {
+    background-color: #003300;
+    color: white;
+    font-size: 16px;
+    padding: 14px 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#santaButton:hover, .letter:hover {
+    background-color: darkgreen;
+}
+
+.letter:hover {
+    transform: scale(1.25);
+}
+
+#santaButton:active, .letter:active {
+    background-color: darkgreen;
+    transform: translateY(4px);
+}
+
+label.error {
+    font-weight: bolder;
+    color: #003300;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 4em;
+}
+
+.floatright {
+    float: right;
+    margin-left: 4em;
+}
+
+#santa, #tree {
+    padding-right: 70px;
+}
+
+#tree {
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #003300;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    padding: 1em;
+    margin-top: 100px;
+    clear: both;
+    border: 2px solid white;
+}
+a {
+    color: white;
+}
+
+

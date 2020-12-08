@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Izzy's Christmas Website</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Isabella Voelz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+    <div id="countdownContainer">
+        <header>
+            <h1>Christmas Countdown Calculator</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hangman.html">Play Hangman</a></li>
+                <li><a href="countdown.html">Christmas Countdown</a></li>
+                <li><a href="santa.html">Meet Santa</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="tree">
+                <img src="pexels-cottonbro-3149898%20(1).jpg" alt="Santa placing a present under the tree" width="333" height="499" class="floatright">
+            </div>
+            <h2>Use Our Christmas Countdown Calculator</h2>
+
+            <form>
+                <label for="userDate">Enter the current date: </label>
+                <input type="date" id="userDate" name="userDate">
+
+                <br><br>
+                <button id="countdownButton">How far away is Christmas?</button>
+            </form>
+
+            <p id="countdown"></p>
+            <p id="dateMessage"></p>
+
+        </main>
+        <footer>
+            Copyright &copy; 2020 Izzy's Christmas Website<br>
+            <a href="mailto:ivoelz@my.wctc.edu">ivoelz@my.wctc.edu</a><br>
+        </footer>
+    </div>
+</body>
+</html>
